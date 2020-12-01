@@ -1,0 +1,58 @@
+.price {
+    background: #ededed;
+    height: max-content;
+}
+.price-wrap {
+    height: max-content;
+}
+.price-main {
+    display: flex;
+    justify-content: space-between;
+}
+.price-card-wrap {
+    width: 255px;
+    height: 343px;
+    padding-top: 30px;
+}
+.price-card{
+    text-align: center;
+    background: white;
+}
+.price-card p {   
+    font-size: 10pt;
+    color: #8f8f8f;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.price-card p:nth-child(1) {
+    font-weight: 400;
+    font-size: 14pt;
+    color: black;
+    text-transform: uppercase;
+}
+.price-card p:nth-child(2) {
+    font-weight: bold;
+    font-size: 30pt;
+    color: black;
+}
+.price-card p:nth-child(2)::after {
+    display: block;
+    content: '/month';
+    font-weight: 400;
+    color: #b3b3b3;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+.price-card span {
+    text-transform: uppercase;
+}
+.price-card span::after {
+    display: block;
+    content: '';
+    background: #b3b3b3;
+    height: 1px;
+    width: 7px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+

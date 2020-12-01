@@ -1,0 +1,17 @@
+.about-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.about-main-left {
+    max-height: 635px;
+    font-weight: 300;
+    font-size: 14pt;
+}
+.btn-about {
+    margin-top: 34px;
+    line-height: 25pt;
+}
+.about-main-right {
+
+}
