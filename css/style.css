@@ -40,8 +40,8 @@
     text-align: center;
     color: black;
     text-transform: uppercase;
-    margin-top: 63px;
-    margin-bottom: 50px;
+    padding-top: 63px;
+    padding-bottom: 50px;
     font-weight: 600;
     letter-spacing: 100%;
 }

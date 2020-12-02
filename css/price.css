@@ -1,58 +1,55 @@
 .price {
     background: #ededed;
-    height: max-content;
 }
-.price-wrap {
-    height: max-content;
-}
-.price-main {
+.price-cards {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 62px;
 }
-.price-card-wrap {
+.price-card {
     width: 255px;
-    height: 343px;
-    padding-top: 30px;
-}
-.price-card{
+    background: rgb(255, 255, 255);
     text-align: center;
-    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
-.price-card p {   
-    font-size: 10pt;
-    color: #8f8f8f;
-    margin-bottom: 10px;
+.card-header {
     text-transform: uppercase;
+
 }
-.price-card p:nth-child(1) {
+.card-header p {
     font-weight: 400;
     font-size: 14pt;
-    color: black;
-    text-transform: uppercase;
 }
-.price-card p:nth-child(2) {
+.card-header p span{
     font-weight: bold;
     font-size: 30pt;
-    color: black;
 }
-.price-card p:nth-child(2)::after {
+.card-header p span::after{
+    content: "/Month";
     display: block;
-    content: '/month';
-    font-weight: 400;
-    color: #b3b3b3;
     font-size: 10pt;
-    text-transform: uppercase;
+    font-weight: 400;
+    color: #aeaeae;
 }
-.price-card span {
-    text-transform: uppercase;
+.card-main {
+    margin-top: 20px;
+    color: #7e7e7e;
+    font-size: 10pt;
+    line-height: 13pt;
+    margin-bottom: 27px;
 }
-.price-card span::after {
+
+.card-main span::after {
     display: block;
-    content: '';
-    background: #b3b3b3;
-    height: 1px;
+    content: "";
     width: 7px;
+    height: 1px;
+    background: #7e7e7e;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
